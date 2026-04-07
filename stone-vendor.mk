@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd \
+    vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_effects.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M17_Ofilm_3264x2448_20220608.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M17_Ofilm_3264x2448_20220608.dat \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M17_Sunny_3264x2448_20220707.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M17_Sunny_3264x2448_20220707.dat \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/aivsParams:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams \
@@ -342,6 +343,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libthermalclient \
+    libmisoundfx \
     vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
@@ -922,7 +924,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
-    init.class_main \
     init.kernel.post_boot \
     init.qcom.sensors \
     init.qti.kernel \

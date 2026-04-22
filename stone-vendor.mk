@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/stone
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/stone/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
-    vendor/xiaomi/stone/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
-    vendor/xiaomi/stone/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/stone/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/stone/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/stone/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
@@ -18,17 +15,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/stone/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/stone/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
-    vendor/xiaomi/stone/proprietary/system_ext/etc/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt \
     vendor/xiaomi/stone/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/SVIConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SVIConfig.xml \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Bluetooth_cal.acdb \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_General_cal.acdb \
     vendor/xiaomi/stone/proprietary/vendor/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/holi-qrdsku1-snd-card/QRD_SKU1_Global_cal.acdb \
@@ -56,21 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths_qrdsku1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths_qrdsku1.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_mixer_paths_usbc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_mixer_paths_usbc.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/audio/sku_holi/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/sound_trigger_platform_info.xml \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/104_Meet.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/108_NorthernEurope.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/109_Rome.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/110_BlackGold.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/121_BBP.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/121_BBP.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/122_Mysterious.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/122_Mysterious.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/123_GreenOrange.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/123_GreenOrange.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/124_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/124_SummerDay.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/125_Latin.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/126_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/127_DustDream.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_DustDream.png \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/128_MongKok.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_MongKok.png \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M17_Ofilm_3264x2448_20220608.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M17_Ofilm_3264x2448_20220608.dat \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/LDC_packdata_xiaomi_M17_Sunny_3264x2448_20220707.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/LDC_packdata_xiaomi_M17_Sunny_3264x2448_20220707.dat \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/aivsModels1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsModels1 \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/aivsParams:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/aivsParams2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/aivsParams2 \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
@@ -79,10 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/golden_ofilm_ov48b2q_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_ofilm_ov48b2q_wide_i.bin \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/golden_sunny_s5kjn1_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/golden_sunny_s5kjn1_wide_i.bin \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/libalfpc_tuning_20181222.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libalfpc_tuning_20181222.bin \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/model_ai_dxo.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_ai_dxo.dlc \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/model_glass.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_glass.dlc \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/morpho_lowlight_2.0_India_aac_ov02b10_macro_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_India_aac_ov02b10_macro_i.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/morpho_lowlight_2.0_India_aac_s5k3l6_front_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_India_aac_s5k3l6_front_i.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/morpho_lowlight_2.0_India_qtech_s5k3l6_front_ii.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight_2.0_India_qtech_s5k3l6_front_ii.xml \
@@ -115,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/vidhance_kernel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_kernel1.bin \
     vendor/xiaomi/stone/proprietary/vendor/etc/camera/vidhance_kernel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_kernel2.bin \
-    vendor/xiaomi/stone/proprietary/vendor/etc/camera/xiaomiSceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomiSceneDetection.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -152,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
-    vendor/xiaomi/stone/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -166,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
@@ -177,19 +147,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
@@ -199,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/xiaomi/stone/proprietary/vendor/etc/mdss_dsi_panel_m17_38_0c_0a_fhdp_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m17_38_0c_0a_fhdp_dsc_vid_mi.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
@@ -225,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/7_version_update_ecc_table_qcrilnr.sql \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/8_version_update_ecc_table.sql \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/other/9_version_update_ecc_table.sql \
-    vendor/xiaomi/stone/proprietary/vendor/etc/qdcm_calib_data_xiaomi_m17_38_0c_0a_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_m17_38_0c_0a_fhd_dsc_video_dsi_panel.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/stone/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
     vendor/xiaomi/stone/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
@@ -233,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/seccomp_policy/qcrilnr@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qcrilnr@2.0.policy \
     vendor/xiaomi/stone/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/stone/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/xiaomi/stone/proprietary/vendor/etc/sensor_log.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_log.cfg \
     vendor/xiaomi/stone/proprietary/vendor/etc/sensors/config/moonstone_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/moonstone_qrd_ak991x_0.json \
     vendor/xiaomi/stone/proprietary/vendor/etc/sensors/config/moonstone_qrd_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/moonstone_qrd_ak991x_1.json \
     vendor/xiaomi/stone/proprietary/vendor/etc/sensors/config/moonstone_qrd_bmi3x0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/moonstone_qrd_bmi3x0.json \
@@ -315,61 +278,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/xiaomi/stone/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
     vendor/xiaomi/stone/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
     vendor/xiaomi/stone/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
     vendor/xiaomi/stone/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b00 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.elf \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/a660_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_zap.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b11 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b12 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b13 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b14 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b15 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b16 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
     vendor/xiaomi/stone/proprietary/vendor/firmware/focaltech_mp_fw_sdc.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_mp_fw_sdc.ini \
     vendor/xiaomi/stone/proprietary/vendor/firmware/focaltech_ts_fw_.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_.bin \
     vendor/xiaomi/stone/proprietary/vendor/firmware/focaltech_ts_fw_sdc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_sdc.bin \
@@ -383,72 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/firmware/sipa.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sipa.bin \
     vendor/xiaomi/stone/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/xiaomi/stone/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b03 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b04 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b05 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b06 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b07 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b08 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b09 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b10 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b11 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b12 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b13 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b14 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b15 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b16 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b17 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b18 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b19 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_1v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v_unsigned.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b04 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b05 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b06 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b07 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b08 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b09 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b10 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b11 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b12 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b13 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b14 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b15 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b16 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/xiaomi/stone/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/xiaomi/stone/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/xiaomi/stone/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/xiaomi/stone/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
@@ -498,45 +342,17 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libc2d30_bltlib \
     libcamxexternalformatutils \
-    libconfigdb \
     libdiag \
-    libdsi_netctrl \
-    libdsutils \
     libgpudataproducer \
     libgsl \
-    libidl \
     libkcl \
     libkernelmanager \
     libllvm-glnext \
     libllvm-qcom \
-    libmdmdetect \
-    libnetmgr \
-    libqcci_legacy \
-    libqcmaputils \
-    libqdi \
-    libqdp \
-    libqmi \
-    libqmi_cci \
-    libqmi_client_helper \
-    libqmi_client_qmux \
-    libqmi_common_so \
-    libqmi_csi \
-    libqmi_csvt_srvc \
-    libqmi_encdec \
-    libqmi_legacy \
-    libqmiservices \
-    libqrtr \
     libthermalclient \
-    libxml \
     libmisoundfx \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
-    vendor.qti.hardware.vpp@1.3 \
-    vendor.qti.hardware.vpp@2.0 \
     btaudio_offload_if \
     audio.primary.holi \
-    sound_trigger.primary.holi \
-    vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     liba2dpoffload \
     libacdb-fts \
@@ -655,12 +471,7 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.frameselect \
     com.qti.feature2.fusion \
     com.qti.feature2.generic \
-    com.qti.feature2.gs.cedros \
-    com.qti.feature2.gs.kamorta \
-    com.qti.feature2.gs.kodiak \
     com.qti.feature2.gs.mannar \
-    com.qti.feature2.gs.sdm865 \
-    com.qti.feature2.gs.sm8350 \
     com.qti.feature2.hdr \
     com.qti.feature2.mcreprocrt \
     com.qti.feature2.memcpy \
@@ -676,11 +487,7 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
-    com.qti.settings.kamorta \
-    com.qti.settings.kodiak \
     com.qti.settings.mannar \
-    com.qti.settings.sdm865 \
-    com.qti.settings.sm8350 \
     com.qti.stats.common \
     com.qualcomm.mcx.distortionmapper \
     com.qualcomm.mcx.linearmapper \
@@ -707,13 +514,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
-    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.qteeconnector@1.0-impl \
-    vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     lib-imscommon \
     lib-imsdpl \
@@ -784,11 +588,9 @@ PRODUCT_PACKAGES += \
     libcne \
     libcneapiclient \
     libcneoplookup \
-    libcneqmiutils \
     libcom.qti.chinodeutils \
+    libconfigdb \
     libcpion \
-    libcvp_common \
-    libcvpcpuRev_skel \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
@@ -797,13 +599,15 @@ PRODUCT_PACKAGES += \
     libdpps \
     libdrmfs \
     libdrmtime \
-    libembmsservice \
+    libdsi_netctrl \
+    libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
     libhdr_tm \
+    libidl \
     libipebpsstriping \
     libipebpsstriping170 \
     libizat_client_api \
@@ -823,6 +627,7 @@ PRODUCT_PACKAGES += \
     liblowi_wifihal \
     liblqe \
     libmctfengine_stub \
+    libmdmdetect \
     libmdsprpc \
     libmfec \
     libmialgo_ai_vision \
@@ -835,7 +640,6 @@ PRODUCT_PACKAGES += \
     libmiphone_capture_bokeh \
     libmlipay \
     libmlipay@1.1 \
-    libmm-color-convertor \
     libmmcamera_bestats \
     libmmcamera_cac3 \
     libmmcamera_faceproc \
@@ -846,6 +650,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_pdpc \
     libmorpho_Lowlight \
     libmpbase \
+    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -863,6 +668,7 @@ PRODUCT_PACKAGES += \
     libpowercore \
     libqcbor \
     libqcc_file_agent \
+    libqcmaputils \
     libqcrilNr \
     libqcrilNrFramework \
     libqcrilNrLogger \
@@ -870,12 +676,22 @@ PRODUCT_PACKAGES += \
     libqcrilNrQtiMutex \
     libqcrildatactl \
     libqdcm-mode-parser \
+    libqdi \
+    libqdp \
     libqisl \
     libqll10 \
     libqllengine \
-    libqmiextservices \
+    libqmi \
+    libqmi_cci \
+    libqmi_client_helper \
+    libqmi_client_qmux \
+    libqmi_common_so \
+    libqmi_csi \
+    libqmi_encdec \
+    libqmi_legacy \
+    libqmiservices \
+    libqrtr \
     libqrtrclient \
-    libqsap_sdk \
     libqseed3 \
     libqsocket \
     libqtikeymaster4 \
@@ -902,7 +718,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libsdmextension \
     libsdsprpc \
-    libsensorcal \
     libsensorslog \
     libsn100u_fw \
     libsnapdragoncolor-manager \
@@ -915,7 +730,6 @@ PRODUCT_PACKAGES += \
     libsnsapi \
     libsnsdiaglog \
     libsoc_helper \
-    libsoc_helper_jni \
     libssc \
     libssc_default_listener \
     libssd \
@@ -936,6 +750,7 @@ PRODUCT_PACKAGES += \
     libwms \
     libwqe \
     libwvhidl \
+    libxml \
     libxtadapter \
     libwvdrmengine \
     qcrilMarshal \
@@ -958,7 +773,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.diaghal@1.0_vendor \
-    vendor.qti.esepowermanager@1.0 \
     vendor.qti.gnss@1.0 \
     vendor.qti.gnss@1.1 \
     vendor.qti.gnss@1.2 \
@@ -972,7 +786,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.cvp@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -984,7 +797,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.embmssl@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
@@ -1019,10 +831,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.ims.callcapability@1.0_vendor \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.hardware.vpp@1.3 \
+    vendor.qti.hardware.vpp@2.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.factory@1.0 \
     vendor.qti.ims.factory@1.1 \
@@ -1034,12 +848,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
-    vendor_lib_rfsa_adsp_bm2n06_bin \
-    vendor_lib_rfsa_adsp_bm2n08_bin \
-    vendor_lib_rfsa_adsp_bm2n12_bin \
-    vendor_lib_rfsa_adsp_bm2n13_bin \
-    vendor_lib_rfsa_adsp_bm2n14_bin \
-    vendor_lib_rfsa_adsp_bm2n15_bin \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Encoder_so \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so \
     vendor_lib_rfsa_adsp_libSnpeHtpV68Skel_so \
@@ -1084,25 +892,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmservice@1.0 \
     vendor.qti.hardware.fm@1.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
-    vendor.qti.ims.configaidlservice-V1-ndk \
-    vendor.qti.ims.configservice@1.0 \
-    vendor.qti.ims.configservice@1.1 \
-    vendor.qti.ims.connection@1.0 \
-    vendor.qti.ims.connectionaidlservice-V1-ndk \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.1 \
-    vendor.qti.ims.factory@2.2 \
-    vendor.qti.ims.factoryaidlservice-V1-ndk \
-    vendor.qti.ims.rcssip@1.0 \
-    vendor.qti.ims.rcssip@1.1 \
-    vendor.qti.ims.rcssip@1.2 \
-    vendor.qti.ims.rcssipaidlservice-V1-ndk \
-    vendor.qti.ims.rcsuce@1.0 \
-    vendor.qti.ims.rcsuce@1.1 \
-    vendor.qti.ims.rcsuce@1.2 \
-    vendor.qti.ims.rcsuceaidlservice-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     CACertService \
@@ -1110,19 +899,13 @@ PRODUCT_PACKAGES += \
     IWlanService \
     SoterService \
     TimeService \
-    uimgbaservice \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     PowerOffAlarm \
-    QtiTelephony \
     QtiTelephonyService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    tcmclient \
-    uimgbalibrary \
-    uimgbamanagerlibrary \
-    uimservicelibrary \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
@@ -1150,22 +933,18 @@ PRODUCT_PACKAGES += \
     qcrilNrd \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
-    vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
-    vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdaemon \
     init.qcom.sensors \
     init.qti.chg_policy \
-    init.qti.qcv \
     irsc_util \
     loc_launcher \
     lowi-server \
     mi_thermald \
-    mlid \
     mlipayd@1.1 \
     msm_irqbalance \
     mutualex \
@@ -1178,18 +957,13 @@ PRODUCT_PACKAGES += \
     ppd \
     qdcmss \
     qmipriod \
-    qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
     qseecomd \
     qti \
-    qtigetprop \
-    qtisetprop \
     rmt_storage \
     sensors.qti \
-    shsusrd \
     sscrpcd \
-    ssgtzd \
     tftp_server \
     time_daemon \
     xtra-daemon \
